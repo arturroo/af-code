@@ -1,0 +1,22 @@
+[project]
+name = "af-python-utils"
+version = "0.1.0"
+description = "A collection of Python utilities for the Artur's toolset, starting with check-jsonschema."
+authors = [
+    { name = "Artur Fejklowicz" }
+]
+dependencies = [
+    "check-jsonschema==0.33.3",
+    "fastmcp==2.11.3",
+]
+requires-python = ">=3.10"
+license = { text = "MIT" }
+keywords = ["af-toolset", "python-utils", "jsonschema"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+"Homepage" = "https://github.com/arturroo/af-code"
+"Bug Tracker" = "https://github.com/arturroo/af-code/issues"
